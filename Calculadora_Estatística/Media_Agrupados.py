@@ -1,4 +1,4 @@
-import Cria_DistFrequencia as distribuicao_frequencia
+import Calculo_Frequencia_Acumulada as distribuicao_frequencia
 
 
 # As funçoes, pega_classe, pega_frequenciaFi e pega_frequenciaFAC recebem a classe (Xi),
@@ -32,4 +32,4 @@ def cria_media():
     multiplicacao_XiFi = np.multiply(classe, frequencia_fi)
     total_parcial = sum(multiplicacao_XiFi)
     media_agrupada = total_parcial/frequencia_fac
-    return print(f'A média dessa relação de dados é de:', media_agrupada, '\n')
+    return print(f'A média dessa relação de dados é de: {media_agrupada}.')

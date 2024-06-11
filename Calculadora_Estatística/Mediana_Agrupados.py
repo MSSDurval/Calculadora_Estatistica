@@ -1,4 +1,4 @@
-import Cria_DistFrequencia as Dist_frequencia
+import Calculo_Frequencia_Acumulada as Dist_frequencia
 
 
 def pega_xi():
